@@ -1,4 +1,8 @@
 <li>
   <h3>{{answer.content}}</h3>
   <p>{{answer.author}}</p>
+
+  {{edit-answer answer=answer editAnswer="editAnswer"}}
+  <br>
+  <button class="bu" {{action 'deleteAnswer' answer}}>Delete</button>
 </li>

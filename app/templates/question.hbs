@@ -3,7 +3,7 @@
 <p>{{model.notes}}</p>
 
 {{edit-question question=model editQuestion="editQuestion"}}
-<button {{action 'delete' model}}>Delete</button>
+<button class="bu" {{action 'delete' model}}>Delete</button>
 
 <ul>
   {{#each model.answers as |answer|}}
